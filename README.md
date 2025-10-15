@@ -41,5 +41,20 @@ The trained model was used to predict the price of a sample house not included i
 * **NumPy** (Numerical operations)
 * **Scikit-learn** (*LinearRegression*, *train\_test\_split*, and metrics)
 * **Matplotlib** (Visualization for EDA and model evaluation)
+### 🚀 Future Enhancements / Next Steps
+
+To improve the model's performance and demonstrate a wider range of machine learning techniques, the following steps are planned:
+
+1.  **Model Comparison (Classification):**
+    * Implement and evaluate more advanced non-linear regression models, such as **Random Forest Regressor** or **XGBoost**.
+    * The results will be compared against the Linear Regression baseline to determine the most effective algorithm for this dataset.
+
+2.  **Advanced Feature Engineering (Categorical Data):**
+    * Incorporate the rich information from the categorical features (e.g., `MSZoning`, `Neighborhood`, `HouseStyle`).
+    * This will be done using methods like **One-Hot Encoding** to prevent these features from being discarded and to boost the model's predictive power.
+
+3.  **Feature Scaling:**
+    * Apply a **StandardScaler** to the numerical features (like `GrLivArea` and `TotalBsmtSF`).
+    * Scaling features often improves the performance and convergence speed of linear models by ensuring no single feature dominates the calculation.
 
 The complete code, step-by-step analysis, and all visualizations are contained in the **`my_projectinternship1 (2).ipynb`** notebook.
