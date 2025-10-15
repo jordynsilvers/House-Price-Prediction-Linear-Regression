@@ -1,4 +1,4 @@
-# 🏡 House Price Prediction using Linear Regression
+# House Price Prediction using Linear Regression
 
 ## Project Summary
 
@@ -6,7 +6,7 @@ This project demonstrates an end-to-end machine learning pipeline to predict res
 
 ---
 
-## 🎯 Key Outcomes & Performance
+## Key Outcomes & Performance
 
 The model was trained on an 80/20 data split and evaluated using industry-standard regression metrics:
 
@@ -26,7 +26,7 @@ The trained model was used to predict the price of a sample house not included i
 
 ---
 
-## 🛠️ Methodology & Technology Stack
+## Methodology & Technology Stack
 
 ### Data Preprocessing
 
@@ -41,7 +41,8 @@ The trained model was used to predict the price of a sample house not included i
 * **NumPy** (Numerical operations)
 * **Scikit-learn** (*LinearRegression*, *train\_test\_split*, and metrics)
 * **Matplotlib** (Visualization for EDA and model evaluation)
-### 🚀 Future Enhancements / Next Steps
+
+### Future Enhancements / Next Steps
 
 To improve the model's performance and demonstrate a wider range of machine learning techniques, the following steps are planned:
 
